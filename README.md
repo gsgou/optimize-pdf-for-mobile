@@ -5,8 +5,10 @@ Uses poppler (`pdfinfo`) and (`pdfimages`) to analyze the pdf input.
 Uses ghostscript (`gs`) to create an optimized and/or resized version of the pdf input.
 
 ---------------------------------------------- 
-#### If you want to support this project, you can give me a cup of coffee :coffee:  
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BGBMGDR5HDSZU)  
+#### If you want to support this project, you can give me a cup of coffee :coffee:
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BGBMGDR5HDSZU">
+  <img src="https://ubuntubudgie.org/storage/Budgiess/support_paypal.svg" width="25%">
+</a>
 
 ---------------------------------------------- 
   
