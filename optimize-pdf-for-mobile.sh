@@ -68,6 +68,7 @@ if [ ${#IMAGES_TO_RESIZE[@]} -ne 0 ]; then
     NEEDS_OPTIMIZATION=true
     # 300 dpi images, color preserving
     #PDFSETTINGS_ARG=-dPDFSETTINGS=/prepress
+    echo "Images that need to be resized:"
     ( IFS=$'\n'; echo "${IMAGES_TO_RESIZE[*]}" )
 fi
 
@@ -102,7 +103,7 @@ done
 cmdArgs=("${cmdArgs[@]}")
                                 
 # Execute the optimization
-"${cmdArgs[@]}" > /dev/null
+"${cmdArgs[@]}" &> /dev/null
 
 if [ $? -ne 0 ]; then
   echo "ERROR: Ghostscript"
